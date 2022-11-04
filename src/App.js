@@ -1,12 +1,10 @@
 import './App.css';
-import Header from './components/header';
-import RegistrationForm from './components/registrationForm';
+import { Login } from "./Login";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <RegistrationForm />
+      <Login />
     </div>
   );
 }
